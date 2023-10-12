@@ -1,0 +1,81 @@
+.weatherOne {
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.topBar {
+    margin-top: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+}
+
+.topBar input {
+    padding: .75rem;
+    border-radius: 3rem;
+    border: 0;
+    background-color: #ebfffc;
+    color: #555;
+    font-weight: 500;
+}
+
+.topBar input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.topBar .topBar_Icon {
+    width: 2.625rem;
+    height: 2.625rem;
+    background-color: #ebfffc;
+    border-radius: 6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherBody .weatherTemp {
+    font-size: 3rem;
+}
+
+.weatherBody .weatherCity {
+    font-size: 2rem;
+}
+
+.weatherElementCapsule {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.weatherElement {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.weatherElement img {
+    width: 2rem;
+    height: 1.8rem;
+}
+
+.elementSize {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.elementSizeSmall {
+    font-size: .75rem;
+    font-weight: 400;
+}

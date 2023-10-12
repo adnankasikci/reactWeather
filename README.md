@@ -1,6 +1,8 @@
 # Hava Durumu Uygulaması
 
-Bu projede, basit bir hava durumu uygulaması oluşturduk. Kullanıcılar, hava durumu bilgilerini arayabilir ve görüntüleyebilirler.
+Bu projede, basit bir hava durumu uygulaması oluşturduk. https://app-weather-react-program.netlify.app/
+
+Kullanıcılar, hava durumu bilgilerini arayabilir ve görüntüleyebilirler.
 
 ## Kullanılan Teknolojiler
 
@@ -20,12 +22,12 @@ Proje yerel bir geliştirme sunucusunda çalıştırılmak üzere tasarlanmışt
 
 ## Çevre Değişkenleri
 
-Proje, hava durumu verilerini almak için bir API anahtarı gerektirir(terich). Bu API anahtarını `.env` dosyasına ekleyin.
+Proje, hava durumu verilerini almak için bir API anahtarı gerektirir(tercih). Bu API anahtarını `.env` dosyasına ekleyin.
 
 ## Ekran Görüntüleri
 
-![Hazılamış Olduğum React Uygulamasının Görüntüsü](/src/components/Assets/view.png){width=300}
-![Karanlık](/src/components/Assets/viewDark.png){width=300}
+<img src="/src/components/Assets/view.png" alt="image" width="300" height="auto">
+<img src="/src/components/Assets/viewDark.png" alt="image" width="300" height="auto">
 
 ## Lisans
 
